@@ -32,45 +32,83 @@ export default function FAQ() {
         setOpenIndex(openIndex === index ? null : index)
     }
     return (
-        <section id="faq" className=" bg-white py-20">
-            <div className="max-w-4xl mx-auto px-6">
+        <section id="faq" className=" bg-gray-50 py-24">
+            <div className="max-w-7xl mx-auto px-6">
                 {/* Heading */}
-                <div className="text-center mb-12">
-                    <h2 className="text-3xl md:text-4xl font-bold text-gray-900">
+                <div className="text-center mb-14">
+                    <span className=" font-medium text-blue-600">
                         Frequently Asked Questions
+                    </span>
+                    <h2 className="text-4xl font-bold mt-3">
+                        Everything you need to know before getting started
                     </h2>
                     <p className="mt-4 text-gray-600">
-                        Everything you need to know before getting started
+                        Find answers to common questions about 
+                        FortyLane and our solutions
                     </p>
                 </div>
 
                 {/* FAQ items */}
-                <div className="space-y-4">
+                <div className=" max-w-4xl mx-auto space-y-4">
                     {faqs.map((item, index) => (
                         <div
                             key={index}
-                            className="border rounded-lg p-4 hover:shadow-sm transition"
+                            className="
+                            bg-white
+                            border 
+                            border-gray-100
+                            rounded-2xl
+                             
+                             shadow-sm
+                             hover:shadow-lg 
+                             transition-all
+                             duration-300
+                             overflow-hidden
+                            
+                            "
                         >
 
                             {/* Question */}
                             <button
                                 onClick={() => toggleFAQ(index)}
-                                className="w-full text-left flex justify-between items-center"
+                                className="
+                                w-full 
+                                text-left
+                                 flex 
+                                 justify-between
+                                  items-center
+                                  px-6
+                                  py-5
+                                
+                                "
                             >
-                                <span className="font-medium text-gray-900">
+                                <span className="
+                                text-lg
+                                font-semibold
+                                 text-gray-900
+                                
+                                ">
                                     {item.question}
                                 </span>
 
-                                <span className="text-xl">
-                                    {openIndex === index ? "−" : "+"}
+                                <span className="
+                                text-blue-600
+                                text-xl
+                                font-light
+                                ">
+                                    {openIndex === index ? "-" : "+"}
                                 </span>
                             </button>
 
                             {/* Answer */}
                             {openIndex === index && (
-                                <p className="mt-3 text-gray-600">
+                                <div className="px-6 pb-5 ">
+                                     <p className="leading-7 text-gray-600">
                                     {item.answer}
                                 </p>
+
+                                </div>
+                               
                             )}
 
                         </div>

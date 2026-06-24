@@ -4,7 +4,7 @@ export default function ContactPage() {
     return (
         <>
             <Navbar />
-            <main className="max-w-4xl mx-auto px-6 py-20 ">
+            {/* <main className="max-w-4xl mx-auto px-6 pt-32 pb-20 ">
                 <h1 className="text-4xl font-bold mb-8">
                     Contact  Us
                 </h1>
@@ -34,8 +34,137 @@ export default function ContactPage() {
                     </button>
 
                 </form>
-            </main>
+            </main> */}
+
+            <main className="bg-gray-50 min-h-screen">
+
+        {/* Hero */}
+
+        <section className="pt-32 pb-16">
+          <div className="max-w-4xl mx-auto px-6 text-center">
+
+            {/* <span className="text-blue-600 font-medium">
+              Contact Us
+            </span> */}
+
+            <h1 className="text-5xl font-bold mt-4 text-gray-900">
+              Let's Talk
+            </h1>
+
+            <p className="mt-6 text-lg text-gray-600">
+              Have questions about FortyLane?
+              We'd love to hear from you.
+            </p>
+
+          </div>
+        </section>
+
+        {/* Contact Form */}
+
+        <section className="pb-20">
+
+          <div className="max-w-4xl mx-auto px-6">
+
+            <div
+              className="
+              bg-white
+              rounded-3xl
+              border border-gray-100
+              shadow-xl
+              p-8 md:p-10
+            "
+            >
+              <form className="space-y-6">
+
+                <div>
+                  <label className="block mb-2 font-medium text-gray-700">
+                    Full Name
+                  </label>
+
+                  <input
+                    type="text"
+                    placeholder="Enter your name"
+                    className="
+                      w-full
+                      rounded-xl
+                      border border-gray-300
+                      px-4
+                      py-3
+                      focus:outline-none
+                      focus:ring-2
+                      focus:ring-blue-500
+                    "
+                  />
+                </div>
+
+                <div>
+                  <label className="block mb-2 font-medium text-gray-700">
+                    Email Address
+                  </label>
+
+                  <input
+                    type="email"
+                    placeholder="Enter your email"
+                    className="
+                      w-full
+                      rounded-xl
+                      border border-gray-300
+                      px-4
+                      py-3
+                      focus:outline-none
+                      focus:ring-2
+                      focus:ring-blue-500
+                    "
+                  />
+                </div>
+
+                <div>
+                  <label className="block mb-2 font-medium text-gray-700">
+                    Message
+                  </label>
+
+                  <textarea
+                    rows="6"
+                    placeholder="Tell us about your requirements..."
+                    className="
+                      w-full
+                      rounded-xl
+                      border border-gray-300
+                      px-4
+                      py-3
+                      focus:outline-none
+                      focus:ring-2
+                      focus:ring-blue-500
+                    "
+                  />
+                </div>
+
+                <button
+                  className="
+                    bg-blue-600
+                    hover:bg-blue-700
+                    text-white
+                    px-8
+                    py-3
+                    rounded-xl
+                    font-semibold
+                    transition
+                  "
+                >
+                  Send Message
+                </button>
+
+              </form>
+            </div>
+
+          </div>
+
+        </section>
+
+      </main>
             <Footer />
-        </>
+
+            </>
+        
     );
 }
