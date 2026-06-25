@@ -24,7 +24,11 @@ export default function(){
             <Route
             path="/solutions/:moduleId"
             element={<ModulePage />}
-            
+            />
+
+            <Route 
+            path="/about"
+            element={<AboutPage/>}
             />
 
         </Routes>

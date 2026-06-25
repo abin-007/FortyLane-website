@@ -7,7 +7,7 @@ export default function Footer(){
             {/* Company */}
             <div>
                 <h3 className="text-2xl font-bold text-blue-400">
-                    ProductX
+                    FortyLane
                 </h3>
                 <p className="mt-4 text-gray-400" >
                      Build modern software products faster

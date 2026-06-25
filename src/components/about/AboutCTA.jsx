@@ -1,4 +1,7 @@
+import { useNavigate } from "react-router-dom";
+
 const AboutCTA = ()=>{
+  const navigate = useNavigate()
     return(
         <section className="py-28">
 
@@ -14,7 +17,9 @@ const AboutCTA = ()=>{
           Fortylane is ready to help.
         </p>
 
-        <button className="mt-10 px-8 py-4 bg-indigo-600 text-white rounded-xl hover:bg-indigo-700 transition">
+        <button className="mt-10 px-8 py-4 bg-indigo-600 text-white rounded-xl hover:bg-indigo-700 transition"
+        onClick={() => navigate("/contact")}
+        >
           Contact Us
         </button>
 

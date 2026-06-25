@@ -1,10 +1,10 @@
-import Navbar from "../components/Navbar";
-import Hero from "../components/Hero";
-import Features from "../components/Features"
-import Footer from "../components/Footer"
-import FAQ from "../components/FAQ";
+import Navbar from "../components/home/Navbar";
+import Hero from "../components/home/Hero";
+import Features from "../components/home/Features"
+import Footer from "../components/home/Footer"
+import FAQ from "../components/home/FAQ";
 import ContactPage from "./ContactPage";
-import Pricing from "../components/Pricing";
+import Pricing from "../components/home/Pricing";
 
 export default function HomePage() {
     return (

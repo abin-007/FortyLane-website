@@ -1,4 +1,9 @@
-
+import {
+    Zap,
+    Smartphone,
+    Paintbrush,
+    Rocket,
+} from "lucide-react";
 
 export default function Features() {
 
@@ -6,18 +11,22 @@ export default function Features() {
         {
             title: "Fast Performance",
             desc: "Optimized React + Vite setup for lightning fast load times.",
+            icon: Zap,
         },
         {
             title: "Responsive Design",
             desc: "Works perfectly on mobile, tablet, and desktop screens.",
+            icon: Smartphone,
         },
         {
             title: "Modern UI",
             desc: "Built with Tailwind CSS for clean and scalable styling.",
+            icon: Paintbrush,
         },
         {
             title: "Easy Deployment",
             desc: "Deploy instantly using Vercel, Netlify, or GitHub Pages.",
+            icon: Rocket,
         },
     ]
     return (
@@ -33,29 +42,39 @@ export default function Features() {
                         Everything you need to build a modern SaaS landing page
                     </p>
                 </div>
+
+
                 {/* Grid*/}
+
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 ">
 
-                    {features.map((item, index) => (
-                        <div
-                            key={index}
-                            // className="
-                            // // p-6 border rounded-xl hover:shadow-lg transition
-                            // "
-                            className=" 
+                    {features.map((item, index) => {
+                        const Icon = item.icon;
+
+                        return (
+
+                            <div
+                                key={index}
+
+                                className=" 
                             p-6
+                            group
                             bg-white
-                            rounde-2xl
+                            rounded-2xl
                             border border-gray-100
                             shadow-sm
                             hover:shadow-xl
-                            hover:-translate-y-1
+                            hover:-translate-y-2
                             transition-all
                             duration-300
+                            hover:border-blue-200
 
                             "
-                        >
-                            <div className=" w-12
+                            >
+
+                                {/* Icon */}
+                                <div className="
+                                            w-12
                                             h-12
                                             bg-blue-50
                                             text-blue-600
@@ -63,17 +82,26 @@ export default function Features() {
                                             flex
                                             items-center
                                             justify-center
-                                            mb-5"></div>
+                                            mb-5
+                                            transition-all
+                                            duration-300
+                                            group-hover:bg-blue-100
+                                            ">
+                                    <Icon className="w-6 h-6" />
 
-                            <h3 className="text-xl font-semibold text-gray-900">
-                                {item.title}
-                            </h3>
 
-                            <p className="mt-2 text-gray-600">
-                                {item.desc}
-                            </p>
-                        </div>
-                    ))}
+                                </div>
+
+                                <h3 className="text-xl font-semibold text-gray-900">
+                                    {item.title}
+                                </h3>
+
+                                <p className="mt-2 text-gray-600">
+                                    {item.desc}
+                                </p>
+                            </div>
+                        )
+                    })}
 
                 </div>
 

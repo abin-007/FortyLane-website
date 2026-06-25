@@ -1,7 +1,8 @@
 import { useEffect, useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import SolutionsDropDown from "./SolutionsDropDown";
-import { solutions } from "../data/solutions";
+import { solutions } from "../../data/solutions"; 
+
 
 
 

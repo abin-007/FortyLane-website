@@ -72,7 +72,7 @@ const AboutHero = () => {
             text-indigo-700
           "
                     >
-                        About Fortylane
+                        About Arlanto
                     </div>
 
                     <h1 className=

@@ -6,7 +6,7 @@ import AboutVision from "../components/about/AboutVision";
 import AboutDifferences from "../components/about/AboutDifferences";
 import AboutCTA from "../components/about/AboutCTA";
 import AboutLocations from "../components/about/AboutLocations";
-import Navbar from "../components/NavBar";
+import Navbar from "../components/home/NavBar";
 
 const AboutPage = () => {
     return (

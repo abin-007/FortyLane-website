@@ -1,6 +1,6 @@
 
 import {Link} from "react-router-dom";
-import modulesConfig from "../data/ModulesConfig";
+import modulesConfig from "../../data/ModulesConfig";
 
 export default function SolutionsDropDown({modules}) {
     //grid-cols-3 && w-[720px]
