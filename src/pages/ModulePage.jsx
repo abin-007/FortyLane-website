@@ -2,7 +2,7 @@
 import { useParams } from "react-router-dom"
 import modulesConfig from "../data/ModulesConfig";
 import Navbar from "../components/Navbar";
-import DemoRequestModal from "../components/DemoRequestModal";
+import DemoRequestModal from "../components/demo/DemoRequestModal";
 import { useState } from "react";
 //import ;
 export default function ModulePage() {

@@ -2,6 +2,7 @@ import {Routes,Route} from 'react-router-dom';
 import HomePage from '../pages/HomePage';
 import ContactPage from '../pages/ContactPage';
 import ModulePage from '../pages/ModulePage';
+import AboutPage from '../pages/AboutPage';
 
 export default function(){
     return(
@@ -14,6 +15,10 @@ export default function(){
             <Route
             path='/contact'
             element={<ContactPage/>}
+            />
+            <Route
+            path='/about'
+            element={<AboutPage/>}
             />
 
             <Route

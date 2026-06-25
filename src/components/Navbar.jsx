@@ -4,6 +4,7 @@ import SolutionsDropDown from "./SolutionsDropDown";
 import { solutions } from "../data/solutions";
 
 
+
 export default function Navbar() {
     const [showSolutions, setShowSolutions] = useState(false)
     
@@ -35,10 +36,15 @@ export default function Navbar() {
                 </h1> */}
 
                 <ul className="hidden lg:flex gap-8 item-center  " >
+                     <li>
+                        <a href="#about" onClick= {()=> navigate("/about")} >About</a>
+
+                    </li>
                     <li>
                         <a href="#features">Features</a>
 
                     </li>
+                    
                     <li>
                         <a href="#pricing">Pricing</a>
 
