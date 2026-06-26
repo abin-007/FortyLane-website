@@ -1,14 +1,65 @@
-
+import { useState } from "react";
 import Footer from "../components/home/Footer";
 import Navbar from "../components/home/Navbar";
+import { sendContactEmail } from "../services/email_service";
 
 
 export default function ContactPage() {
-    return (
-        <>
-            < Navbar
-            />
-            {/* <main className="max-w-4xl mx-auto px-6 pt-32 pb-20 ">
+  const [formData, setFormData] = useState({
+    name: "",
+    email: "",
+    message: ""
+  });
+
+  const [loading, setLoading] = useState(false);
+
+  const handleChange = (e) => {
+    setFormData({
+      ...formData,
+      [e.target.name]: e.target.value
+    });
+
+  }
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    try {
+      setLoading(true);
+      await sendContactEmail({
+              name: formData.name,
+              email: formData.email,
+              message: formData.message,
+      });
+      alert("Message sent successfully");
+
+
+
+
+    } catch (e) {
+     // alert("Failed to send the message");
+     console.error("Emailjs error", e);
+      alert(`Failed to send message.\n\n${e?.text || e?.message || "Unknown Error"}`
+
+
+
+      );
+
+
+     
+
+
+
+    } finally {
+      setLoading(false);
+
+    }
+
+  }
+  return (
+    <>
+      < Navbar
+      />
+      {/* <main className="max-w-4xl mx-auto px-6 pt-32 pb-20 ">
                 <h1 className="text-4xl font-bold mb-8">
                     Contact  Us
                 </h1>
@@ -40,7 +91,7 @@ export default function ContactPage() {
                 </form>
             </main> */}
 
-            <main className="bg-gray-50 min-h-screen">
+      <main className="bg-gray-50 min-h-screen">
 
         {/* Hero */}
 
@@ -78,7 +129,9 @@ export default function ContactPage() {
               p-8 md:p-10
             "
             >
-              <form className="space-y-6">
+              <form className="space-y-6"
+                onSubmit={handleSubmit}
+              >
 
                 <div>
                   <label className="block mb-2 font-medium text-gray-700">
@@ -87,6 +140,9 @@ export default function ContactPage() {
 
                   <input
                     type="text"
+                    name="name"
+                    value={formData.name}
+                    onChange={handleChange}
                     placeholder="Enter your name"
                     className="
                       w-full
@@ -108,6 +164,9 @@ export default function ContactPage() {
 
                   <input
                     type="email"
+                    name="email"
+                    value={formData.email}
+                    onChange={handleChange}
                     placeholder="Enter your email"
                     className="
                       w-full
@@ -129,6 +188,9 @@ export default function ContactPage() {
 
                   <textarea
                     rows="6"
+                    name="message"
+                    value={formData.message}
+                    onChange={handleChange}
                     placeholder="Tell us about your requirements..."
                     className="
                       w-full
@@ -144,6 +206,7 @@ export default function ContactPage() {
                 </div>
 
                 <button
+                  disabled={loading}
                   className="
                     bg-blue-600
                     hover:bg-blue-700
@@ -155,7 +218,7 @@ export default function ContactPage() {
                     transition
                   "
                 >
-                  Send Message
+                  {loading ? "Sending .." : "Send Message"}
                 </button>
 
               </form>
@@ -166,9 +229,9 @@ export default function ContactPage() {
         </section>
 
       </main>
-            <Footer />
+      <Footer />
 
-            </>
-        
-    );
+    </>
+
+  );
 }

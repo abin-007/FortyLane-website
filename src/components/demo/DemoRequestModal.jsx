@@ -1,4 +1,5 @@
 import { useState } from "react"
+import { sendDemoRequest } from "../../services/email_service";
 export default function DemoRequestModal({
     moduleName,
     onClose
@@ -11,6 +12,8 @@ export default function DemoRequestModal({
 
     });
 
+    const [loading, setLoading] = useState(false);
+
     const handleChange = (e) => {
         setFormData({
             ...formData,
@@ -18,15 +21,28 @@ export default function DemoRequestModal({
         });
     };
 
-    const handleSubmit = (e) => {
+    const handleSubmit = async (e) => {
         e.preventDefault();
-        console.log({
-            ...formData,
-            module: moduleName
-        });
-        alert("Demo request submitted!");
+        try {
+            setLoading(true)
+              await sendDemoRequest({
+                name: formData.name,
+                email: formData.email,
+                company: formData.company,
+                phone: formData.phone,
+                module: moduleName
+            })
 
-        onClose();
+            alert("Demo request submitted!");
+            onClose();
+
+        } catch (e) {
+            alert("Unable to submit request.");
+
+        } finally {
+            setLoading(false);
+        }
+
     };
 
     return (
@@ -76,7 +92,8 @@ export default function DemoRequestModal({
                         {moduleName}
                     </span>
                 </p>
-                <form onSubmit={handleSubmit}
+                <form 
+                onSubmit={handleSubmit}
                     className="mt-8 space-y-4">
                     <input
                         type="text"
@@ -135,7 +152,7 @@ export default function DemoRequestModal({
                         name="phone"
                         placeholder=" Phone Number"
                         value={formData.phone}
-                        onChange={formData.phone}
+                        onChange={handleChange}
                         required
                         className="
                         w-full
@@ -150,6 +167,7 @@ export default function DemoRequestModal({
                         " />
                     <button
                         type="submit"
+                        disabled={loading}
                         className="
                     w-full
                     bg-blue-600
@@ -162,7 +180,7 @@ export default function DemoRequestModal({
                     "
 
                     >
-                        Schedule Demo
+                        {loading ? "Submitting" : " Schedule Demo"}
                     </button>
                 </form>
             </div>
