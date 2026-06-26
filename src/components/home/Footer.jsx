@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export default function Footer(){
     return(
 <footer className="bg-gray-900 text-white py-12 ">
@@ -24,6 +26,13 @@ export default function Footer(){
                 <ul className="space-y-2 text-gray-400">
                     <li>
                          <a href="#features">Features</a>
+                         {/* <Link 
+                         to= "/about"
+                         className=" hover:text-white transition-colors"
+                         >
+                            About
+                         
+                         </Link> */}
                     </li>
                     <li>
                          <a href="#pricing">Pricing</a>
@@ -45,7 +54,14 @@ export default function Footer(){
 
                 <ul className="space-y-2 text-gray-400">
                     <li>
-                         <a href="#">About</a>
+                         {/* <a href="#">About</a> */}
+                         <Link 
+                         to= "/about"
+                         className=" hover:text-white transition-colors"
+                         >
+                            About
+                         
+                         </Link>
                     </li>
                     <li>
                          <a href="#">Careers</a>
@@ -64,7 +80,7 @@ export default function Footer(){
                     Contact
                 </h4>
                 <ul className=" space-y-2 text-gray-400">
-                    <li>hello@productx.com</li>
+                    <li>info@arlanto.com</li>
                     <li> +91 9876543210</li>
                     <li>Bangalore, India</li>
 
