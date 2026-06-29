@@ -1,34 +1,35 @@
 import {
-    Zap,
-    Smartphone,
-    Paintbrush,
-    Rocket,
+    Shield,
+    AlertTriangle,
+    Key,
+    BarChart,
 } from "lucide-react";
 
 export default function Features() {
 
     const features = [
         {
-            title: "Fast Performance",
-            desc: "Optimized React + Vite setup for lightning fast load times.",
-            icon: Zap,
-        },
-        {
-            title: "Responsive Design",
-            desc: "Works perfectly on mobile, tablet, and desktop screens.",
-            icon: Smartphone,
-        },
-        {
-            title: "Modern UI",
-            desc: "Built with Tailwind CSS for clean and scalable styling.",
-            icon: Paintbrush,
-        },
-        {
-            title: "Easy Deployment",
-            desc: "Deploy instantly using Vercel, Netlify, or GitHub Pages.",
-            icon: Rocket,
-        },
-    ]
+        title: "Security Operations",
+        desc: "Manage guarding, shift scheduling, and duty deployment efficiently.",
+        icon: Shield, // keep your existing icon or adjust if needed
+    },
+    {
+        title: "Incident & Crisis Management",
+        desc: "Track incidents, SCRI events, and ensure real-time response handling.",
+        icon: AlertTriangle,
+    },
+    {
+        title: "Access & Pass Control",
+        desc: "Handle visitor passes, employee access, and authorization workflows.",
+        icon: Key,
+    },
+    {
+        title: "Reports & Intelligence",
+        desc: "Generate insights for SLA, cost, compliance, and operational analysis.",
+        icon: BarChart,
+    },
+];
+    
     return (
         <section id="features" className="bg-white py-20">
             <div className="max-w-7xl mx-auto px-6">

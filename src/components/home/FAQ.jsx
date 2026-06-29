@@ -4,28 +4,29 @@ export default function FAQ() {
     // const [open, setOpen] = useState(false);
     const [openIndex, setOpenIndex] = useState(null)
     const faqs = [
+        
         {
-            question: "What is this product about?",
-            answer:
-                "It is a modern SaaS starter template built with React and Tailwind CSS to help you launch faster.",
-        },
-        {
-            question: "Is this production ready?",
-            answer:
-                "Yes, it is designed with scalable architecture, routing, and reusable components.",
-        },
-        {
-            question: "Can I deploy it for free?",
-            answer:
-                "Yes, you can deploy using Vercel, Netlify, or GitHub Pages for free.",
-        },
-        {
-            question: "Do I need a backend?",
-            answer:
-                "No backend is required for the static landing page. You can integrate APIs later if needed.",
-        },
-
-    ]
+        question: "What is FortyLane used for?",
+        answer:
+            "FortyLane is a security and operations management platform used to handle guarding operations, incidents, access control, compliance, and enterprise security workflows.",
+    },
+    {
+        question: "Who can use this system?",
+        answer:
+            "It is designed for tech parks, corporate campuses, security agencies, facility management teams, and large organizations.",
+    },
+    {
+        question: "Does it support real-time tracking?",
+        answer:
+            "Yes, the system supports real-time tracking for incidents, attendance, security operations, and transportation workflows.",
+    },
+    {
+        question: "Can it manage multiple security modules?",
+        answer:
+            "Yes, it includes modules like guarding operations, SCRI, pass management, incident tracking, shift scheduling, and more.",
+    },
+     
+    ];
 
 
     const toggleFAQ = (index) => {

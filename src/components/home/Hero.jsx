@@ -15,30 +15,32 @@ export default function Hero() {
 
 
                     <p className="mt-6 text-lg text-gray-600">
-                        A modern, responsive, and production-ready SaaS landing page starter.
+                        A unified security management platform for guarding operations, incident tracking, access control,
                     </p>
 
                     <div className="mt-8 flex gap-4 justify-center md:justify-start">
                         <button 
                         onClick={()=>navigate('/contact')}
                         className="bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700" >
-                            Get Started
+                            Request Demo
                         </button>
                         <button
                         onClick={()=>navigate('/about')}
                         
                         className="border border-gray-300 px-6 py-3 rounded-lg hover:bg-gray-100">
-                            Learn More
+                           Explore Platform
                         </button>
                     </div>
                 </div>
 
                 {/* Right */}
                 <div className="flex-1">
-                    <div className="bg-white shadow-xl rounded-2xl p-6">
-                        <div className="h-64 bg-gray-100 rounded-xl flex items-center justify-center text-gray-400">
-                            Product Screenshot
-                        </div>
+                    <div className="bg-white shadow-xl rounded-2xl p-8">
+                         <img
+                            src="/src/assets/images/fortylane_logo.png"
+                            alt="FortyLane Dashboard"
+                            className="h-94 w-full object-cover rounded-xl"
+                            />
                     </div>
                 </div>
 
