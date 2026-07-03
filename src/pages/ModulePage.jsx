@@ -26,7 +26,7 @@ export default function ModulePage() {
 
             {/* Hero  */}
 
-            <section className="max-w-7xl mx-auto px-6 pt-32 pb-20">
+            <section className="max-w-7xl mx-auto px-6  py-20 pt-32 pb-20">
                 <div className="grid lg:grid-cols-2 gap-12 items-center">
                     <div>
                         {/* <span className="text-sm text-gray-500"> Solutions</span> */}
@@ -36,23 +36,32 @@ export default function ModulePage() {
                         <p className="mt-6 text-lg text-gray-600">{module.subtitle}</p>
                     </div>
 
-                    <div>
-                        {/* <div className="h-[400px] rounded-3xl bg-gray-100 shadow-lg flex items-center justify-center">Hero Image</div> */}
-                        <div
+                    <div >
+                        
+                        {/* <div
                             className="
-                     h-[400px]
-                    rounded-3xl
-                     bg-gradient-to-br
-                     from-blue-50
-                     via-white
-                     to-blue-100
-                    border border-blue-100
-                    shadow-xl
-                     flex items-center justify-center
-                    "
+                                        h-[400px]
+                                        rounded-3xl
+                                        bg-gradient-to-br
+                                        from-blue-50
+                                        via-white
+                                        to-blue-100
+                                        border border-blue-100
+                                        shadow-xl
+                                        flex items-center justify-center
+                                            "
 
 
-                        > Hero Image</div>
+                        > Hero Image</div> */}
+                        <div className="rounded-3xl shadow-xl overflow-hidden ">
+                            {/* <div className="bg-white rounded-3xl shadow-2xl p-6"> */}
+                            <img 
+                             src={module.heroImage}
+                            alt={module.title}
+                            className=" w-full h-auto object-contain "
+                            
+                            />
+                        </div>
                     </div>
 
                 </div>
@@ -112,23 +121,30 @@ export default function ModulePage() {
                             </p>
                         </div>
 
-                        {/* <div className="h-[350px] bg-white rounded-3xl shadow-lg flex items-center justify-center">
-              Workflow Image
-            </div> */}
-                        <div
+                       
+                        {/* <div
                             className="
-            h-[350px]
-            rounded-3xl
-            bg-gradient-to-br
-            from-blue-50
-            to-white
-            border border-blue-100
-            shadow-xl
-            flex items-center
-            justify-center"
+                                    h-[350px]
+                                    rounded-3xl
+                                    bg-gradient-to-br
+                                    from-blue-50
+                                    to-white
+                                    border border-blue-100
+                                    shadow-xl
+                                    flex items-center
+                                    justify-center"
 
                         >
                             Workflow Image
+                        </div> */}
+
+                         <div className="rounded-3xl shadow-xl overflow-hidden   ">
+                            <img 
+                             src={module.workflowImage}
+                            alt={`${module.title} Workflow`}
+                            className="w-full h-auto object-contain"
+                            
+                            />
                         </div>
 
                     </div>

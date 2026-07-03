@@ -1,3 +1,6 @@
+
+
+
 const modulesConfig =[
         
 
@@ -45,8 +48,8 @@ const modulesConfig =[
     "Improved transparency with audit trails"
   ],
 
-  // image1: "/images/modules/article-found-register-1.png",
-  // image2: "/images/modules/article-found-register-2.png"
+  heroImage: "/src/assets/images/article_found2.png",
+  workflowImage: "/src/assets/images/article_found2.png"
 },
 // Law enforcement visit
 {
@@ -91,7 +94,8 @@ const modulesConfig =[
     "Centralized visit records",
     "Supports incident investigations"
   ],
-
+  heroImage: "/src/assets/images/article_found2.png",
+  workflowImage: "/src/assets/images/article_found2.png"
   // image1: "",
   // image2: ""
 },
@@ -139,8 +143,8 @@ const modulesConfig =[
     "Enhanced participant experience"
   ],
 
-  // image1: "",
-  // image2: ""
+  heroImage: "/src/assets/images/article_found2.png",
+  workflowImage: "/src/assets/images/article_found2.png"
 },
   // incident management
   {
@@ -186,8 +190,8 @@ const modulesConfig =[
     "Data-driven preventive actions"
   ],
 
-  // image1: "",
-  // image2: ""
+  heroImage: "/src/assets/images/article_found2.png",
+  workflowImage: "/src/assets/images/article_found2.png"
 },
   // material movement
   {
@@ -233,8 +237,8 @@ const modulesConfig =[
     "Reduced manual tracking"
   ],
 
-  // image1: "",
-  // image2: ""
+  heroImage: "/src/assets/images/article_found2.png",
+  workflowImage: "/src/assets/images/article_found2.png"
 },
 //Pass management 
   {
@@ -280,8 +284,8 @@ const modulesConfig =[
     "Improved visitor management"
   ],
 
-  // image1: "",
-  // image2: ""
+ heroImage: "/src/assets/images/article_found2.png",
+  workflowImage: "/src/assets/images/article_found2.png"
 },
   // guarding operations
   {
@@ -327,8 +331,8 @@ const modulesConfig =[
     "Enhanced team coordination"
   ],
 
-  // image1: "",
-  // image2: ""
+  heroImage: "/src/assets/images/article_found2.png",
+  workflowImage: "/src/assets/images/article_found2.png"
 },
   // key management  
   {
@@ -374,8 +378,8 @@ const modulesConfig =[
     "Centralized key management"
   ],
 
-  // image1: "",
-  // image2: ""
+heroImage: "/src/assets/images/article_found2.png",
+  workflowImage: "/src/assets/images/article_found2.png"
 },
   // Female drop pick up
   {
@@ -421,8 +425,8 @@ const modulesConfig =[
     "Faster emergency response"
   ],
 
-  // image1: "",
-  // image2: ""
+  heroImage: "/src/assets/images/article_found2.png",
+  workflowImage: "/src/assets/images/article_found2.png"
 },
 
   // sla violation penalty
@@ -469,8 +473,8 @@ const modulesConfig =[
     "Data-driven vendor performance evaluation"
   ],
 
-  // image1: "",
-  // image2: ""
+  heroImage: "/src/assets/images/article_found2.png",
+  workflowImage: "/src/assets/images/article_found2.png"
 },
 
   // Head Count process 
@@ -517,8 +521,8 @@ const modulesConfig =[
     "Efficient resource allocation"
   ],
 
-  // image1: "",
-  // image2: ""
+ heroImage: "/src/assets/images/article_found2.png",
+  workflowImage: "/src/assets/images/article_found2.png"
 },
   // shift scheduling 
   {
@@ -564,8 +568,8 @@ const modulesConfig =[
     "Enhanced operational efficiency"
   ],
 
-  // image1: "",
-  // image2: ""
+  heroImage: "/src/assets/images/article_found2.png",
+  workflowImage: "/src/assets/images/article_found2.png"
 },
 //security systems
 {
@@ -611,8 +615,8 @@ const modulesConfig =[
     "Enhanced security system integrity"
   ],
 
-  // image1: "",
-  // image2: ""
+  heroImage: "/src/assets/images/article_found2.png",
+  workflowImage: "/src/assets/images/article_found2.png"
 },
   
   // hand over- take over
@@ -659,8 +663,8 @@ const modulesConfig =[
     "Consistent security coverage"
   ],
 
-  // image1: "",
-  // image2: ""
+ heroImage: "/src/assets/images/article_found2.png",
+  workflowImage: "/src/assets/images/article_found2.png"
 },
   
 // cost management 
@@ -708,8 +712,8 @@ const modulesConfig =[
     "Optimized operational spending"
   ],
 
-  // image1: "",
-  // image2: ""
+  heroImage: "/src/assets/images/article_found2.png",
+  workflowImage: "/src/assets/images/article_found2.png"
 },
 //general events 
 {
@@ -755,8 +759,8 @@ const modulesConfig =[
     "Enhanced operational readiness"
   ],
 
-  // image1: "",
-  // image2: ""
+  heroImage: "/src/assets/images/article_found2.png",
+  workflowImage: "/src/assets/images/article_found2.png"
 },
 //SCRI (SECURITY AND CRISIS RESPONSE INITIATIVE)
 
@@ -803,8 +807,8 @@ const modulesConfig =[
     "Centralized incident intelligence"
   ],
 
-  // image1: "",
-  // image2: ""
+ heroImage: "/src/assets/images/article_found2.png",
+  workflowImage: "/src/assets/images/article_found2.png"
 }
 
 
