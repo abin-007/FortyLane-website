@@ -48,8 +48,8 @@ const modulesConfig =[
     "Improved transparency with audit trails"
   ],
 
-  heroImage: "/src/assets/images/article_found2.png",
-  workflowImage: "/src/assets/images/article_found2.png"
+  heroImage: "/src/assets/images/articlefound2chat.png",
+  workflowImage: "/src/assets/images/articlefound1chat.png"
 },
 // Law enforcement visit
 {
@@ -94,8 +94,8 @@ const modulesConfig =[
     "Centralized visit records",
     "Supports incident investigations"
   ],
-  heroImage: "/src/assets/images/article_found2.png",
-  workflowImage: "/src/assets/images/article_found2.png"
+  heroImage: "/src/assets/images/leochat2.png",
+  workflowImage: "/src/assets/images/leochat1.png"
   // image1: "",
   // image2: ""
 },
@@ -143,8 +143,8 @@ const modulesConfig =[
     "Enhanced participant experience"
   ],
 
-  heroImage: "/src/assets/images/article_found2.png",
-  workflowImage: "/src/assets/images/article_found2.png"
+  heroImage: "/src/assets/images/eventprotectionchat1.png",
+  workflowImage: "/src/assets/images/eventprotectionchat3.png"
 },
   // incident management
   {
@@ -190,8 +190,8 @@ const modulesConfig =[
     "Data-driven preventive actions"
   ],
 
-  heroImage: "/src/assets/images/article_found2.png",
-  workflowImage: "/src/assets/images/article_found2.png"
+  heroImage: "/src/assets/images/incidentchat1.png",
+  workflowImage: "/src/assets/images/incidentchat2.png"
 },
   // material movement
   {
@@ -237,8 +237,8 @@ const modulesConfig =[
     "Reduced manual tracking"
   ],
 
-  heroImage: "/src/assets/images/article_found2.png",
-  workflowImage: "/src/assets/images/article_found2.png"
+  heroImage: "/src/assets/images/materialchat1.png",
+  workflowImage: "/src/assets/images/materialchat2.png"
 },
 //Pass management 
   {
@@ -284,8 +284,8 @@ const modulesConfig =[
     "Improved visitor management"
   ],
 
- heroImage: "/src/assets/images/article_found2.png",
-  workflowImage: "/src/assets/images/article_found2.png"
+ heroImage: "/src/assets/images/passmanagementchat1.png",
+  workflowImage: "/src/assets/images/passmanagementchat2.png"
 },
   // guarding operations
   {
@@ -331,8 +331,8 @@ const modulesConfig =[
     "Enhanced team coordination"
   ],
 
-  heroImage: "/src/assets/images/article_found2.png",
-  workflowImage: "/src/assets/images/article_found2.png"
+  heroImage: "/src/assets/images/guardingchat1.png",
+  workflowImage: "/src/assets/images/guardingchat2.png"
 },
   // key management  
   {
@@ -378,8 +378,8 @@ const modulesConfig =[
     "Centralized key management"
   ],
 
-heroImage: "/src/assets/images/article_found2.png",
-  workflowImage: "/src/assets/images/article_found2.png"
+heroImage: "/src/assets/images/keymanagementchat1.png",
+  workflowImage: "/src/assets/images/keymanagementchat2.png"
 },
   // Female drop pick up
   {
@@ -425,8 +425,8 @@ heroImage: "/src/assets/images/article_found2.png",
     "Faster emergency response"
   ],
 
-  heroImage: "/src/assets/images/article_found2.png",
-  workflowImage: "/src/assets/images/article_found2.png"
+  heroImage: "/src/assets/images/femaledropchat1.png",
+  workflowImage: "/src/assets/images/femaledropchat2.png"
 },
 
   // sla violation penalty
@@ -473,8 +473,8 @@ heroImage: "/src/assets/images/article_found2.png",
     "Data-driven vendor performance evaluation"
   ],
 
-  heroImage: "/src/assets/images/article_found2.png",
-  workflowImage: "/src/assets/images/article_found2.png"
+  heroImage: "/src/assets/images/slachat1.png",
+  workflowImage: "/src/assets/images/slachat2.png"
 },
 
   // Head Count process 
@@ -521,8 +521,8 @@ heroImage: "/src/assets/images/article_found2.png",
     "Efficient resource allocation"
   ],
 
- heroImage: "/src/assets/images/article_found2.png",
-  workflowImage: "/src/assets/images/article_found2.png"
+ heroImage: "/src/assets/images/headcountchat1.png",
+  workflowImage: "/src/assets/images/headcountchat2.png"
 },
   // shift scheduling 
   {
@@ -568,8 +568,8 @@ heroImage: "/src/assets/images/article_found2.png",
     "Enhanced operational efficiency"
   ],
 
-  heroImage: "/src/assets/images/article_found2.png",
-  workflowImage: "/src/assets/images/article_found2.png"
+  heroImage: "/src/assets/images/shiftschedulechat1.png",
+  workflowImage: "/src/assets/images/shiftschedulechat2.png"
 },
 //security systems
 {
@@ -615,8 +615,8 @@ heroImage: "/src/assets/images/article_found2.png",
     "Enhanced security system integrity"
   ],
 
-  heroImage: "/src/assets/images/article_found2.png",
-  workflowImage: "/src/assets/images/article_found2.png"
+  heroImage: "/src/assets/images/sschat1.png",
+  workflowImage: "/src/assets/images/sschat2.png"
 },
   
   // hand over- take over
@@ -663,8 +663,8 @@ heroImage: "/src/assets/images/article_found2.png",
     "Consistent security coverage"
   ],
 
- heroImage: "/src/assets/images/article_found2.png",
-  workflowImage: "/src/assets/images/article_found2.png"
+ heroImage: "/src/assets/images/handoverchat1.png",
+  workflowImage: "/src/assets/images/handoverchat2.png"
 },
   
 // cost management 
@@ -712,8 +712,8 @@ heroImage: "/src/assets/images/article_found2.png",
     "Optimized operational spending"
   ],
 
-  heroImage: "/src/assets/images/article_found2.png",
-  workflowImage: "/src/assets/images/article_found2.png"
+  heroImage: "/src/assets/images/costmanagementchat1.png",
+  workflowImage: "/src/assets/images/costmanagementchat2.png"
 },
 //general events 
 {
@@ -759,8 +759,8 @@ heroImage: "/src/assets/images/article_found2.png",
     "Enhanced operational readiness"
   ],
 
-  heroImage: "/src/assets/images/article_found2.png",
-  workflowImage: "/src/assets/images/article_found2.png"
+  heroImage: "/src/assets/images/generaleventschat1.png",
+  workflowImage: "/src/assets/images/generaleventschat2.png"
 },
 //SCRI (SECURITY AND CRISIS RESPONSE INITIATIVE)
 
@@ -807,8 +807,8 @@ heroImage: "/src/assets/images/article_found2.png",
     "Centralized incident intelligence"
   ],
 
- heroImage: "/src/assets/images/article_found2.png",
-  workflowImage: "/src/assets/images/article_found2.png"
+ heroImage: "/src/assets/images/scrichat1.png",
+  workflowImage: "/src/assets/images/scrichat2.png"
 }
 
 
