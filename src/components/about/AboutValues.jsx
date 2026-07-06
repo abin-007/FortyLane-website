@@ -10,25 +10,25 @@ const values = [
         title: "Innovation",
         icon: Sparkles,
         description:
-            "We continuously explore new ideas, technologies, and approaches to create meaningful value."
+            "We embrace new ideas and technologies to deliver advanced, effective solutions that keep our clients ahead."
     },
     {
         title: "Integrity",
         icon: ShieldCheck,
         description:
-            "Trust, transparency, and accountability guide every decision we make."
+            "Trust, transparency, and ethical practices are the foundation of our relationships with clients and partners."
     },
     {
         title: "Excellence",
         icon: Trophy,
         description:
-            "We strive to deliver quality solutions and exceptional customer experiences."
+            "We strive to exceed expectations by delivering high-quality solutions and outstanding results consistently."
     },
     {
-        title: "Partnership",
+        title: "Collaboration",
         icon: Users,
         description:
-            "Strong relationships help us build solutions that drive long-term success."
+            "We work closely with clients and partners to achieve shared goals and build long-lasting relationships."
     }
 ];
 
@@ -64,8 +64,9 @@ const AboutValues = () => {
                         <span className=" block text-indigo-600"> Everything we build  </span>
                     </h2>
                     <p className=" mt-6 text-lg text-slate-600">
-                        Our values shape how we innovate, collaborate,
-                        and deliver meaningful outcomes for every customer.
+                        Our values are deeply embedded in our culture and operations, 
+                        guiding how we innovate, collaborate, and 
+                        deliver meaningful value to our clients.
                     </p>
                 </div>
 

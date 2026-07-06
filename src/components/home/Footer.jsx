@@ -12,7 +12,7 @@ export default function Footer(){
                     FortyLane
                 </h3>
                 <p className="mt-4 text-gray-400" >
-                     Build modern software products faster
+                     A unified security management platform
                 </p>
             </div>
 

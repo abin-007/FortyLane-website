@@ -8,19 +8,18 @@ const AboutCTA = ()=>{
       <div className="max-w-5xl mx-auto px-6 text-center">
 
         <h2 className="text-5xl font-bold text-gray-900">
-          Let's Build What's Next
+         Let’s Work Together
         </h2>
 
         <p className="mt-6 text-xl text-gray-600">
-          Whether you're looking to modernize operations,
-          unlock new opportunities, or drive growth,
-          Fortylane is ready to help.
+          Partner with Arlanto to build forward-thinking solutions that help your 
+          organization manage risk, navigate complexity, and move ahead with confidence.
         </p>
 
         <button className="mt-10 px-8 py-4 bg-indigo-600 text-white rounded-xl hover:bg-indigo-700 transition"
         onClick={() => navigate("/contact")}
         >
-          Contact Us
+          Let’s Get Started
         </button>
 
       </div>

@@ -1,20 +1,20 @@
 
 const stats = [
     {
-        value: "100+",
-        label: "Projects Delivered",
+        value: "Global",
+        label: "Client Reach",
     },
     {
         value: "20+",
-        label: "Years Combined Expertise",
+        label: "Years of  Experience",
     },
     {
-        value: "10+",
-        label: "Industries Served",
+        value: "Banking",
+        label: "Risk Management Expertise",
     },
     {
-        value: "Global",
-        label: "Client Reach",
+        value: "Higher Education",
+        label: "Solutions for Universities",
     },
 ];
 
@@ -79,25 +79,24 @@ const AboutHero = () => {
                         "mt-8 text-6xl md:text-7xl font-bold text-gray-900 tracking-tight leading-[0.95] "
 
                     >
-                        Building Smarter Paths
+                        Look Ahead
                         <br />
 
-                        for{''}
+                        {''}
                         <span className=" 
           bg-gradient-to-r 
           from-indigo-600
            to-cyan-500 
            bg-clip-text
             text-transparent">
-                            Business Growth
+                            Be Ahead
                         </span>
 
 
                     </h1>
                     <p className=" max-w-3xl mx-auto mt-8 text-xl text-gray-600 leading-relaxed">
-                        We help organizations simplify complexity, unlock insights,
-                        and make confident decisions through intelligent technology,
-                        analytics, and innovation.
+                        Founded more than 20 years ago, Arlanto has been a pioneer in risk management solutions,
+                         helping organizations anticipate challenges, make informed decisions, and stay ahead in a rapidly changing world.
                     </p>
 
                     {/* CTA button */}

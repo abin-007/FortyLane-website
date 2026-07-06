@@ -2,15 +2,15 @@
 const cards = [
   {
     title: "Client-Centric",
-    text: "We align our solutions with your unique business goals and priorities."
+    text: "We listen closely to our clients and craft solutions that support their unique needs, goals, and priorities."
   },
   {
-    title: "Outcome-Focused",
-    text: "Our success is measured by the results and impact we create."
+    title: "Goal-Oriented",
+    text: "We are invested in your success, delivering solutions that help you make confident, data-driven decisions."
   },
-  {
-    title: "Built on Partnership",
-    text: "We work alongside our customers to create lasting value."
+   {
+    title: "Long-Term Collaboration",
+    text: "We engage with our clients as long-term partners, adapting and growing alongside their evolving needs."
   }
 ]; 
 
@@ -26,8 +26,9 @@ const AboutDifferences=()=>{
           </h2>
 
           <p className="mt-4 text-lg text-gray-600 max-w-3xl mx-auto">
-            We help organizations transform complexity into clarity,
-            enabling smarter decisions and sustainable growth.
+            Arlanto helps organizations make data-driven, 
+            information-based decisions by identifying 
+            relevant risk factors, mitigating uncertainty, and creating opportunities for growth.
           </p>
         </div>
 

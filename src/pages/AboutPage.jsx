@@ -11,7 +11,7 @@ import Navbar from "../components/home/NavBar";
 const AboutPage = () => {
     return (
 
-        <div className="bg-white">
+        <div className="bg-white">a
             <Navbar/>
             <AboutHero />
             <AboutStory />

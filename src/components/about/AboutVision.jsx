@@ -81,9 +81,9 @@ const AboutVision = () => {
           leading-tight
           "
                         >
-                            Driving the Future of
+                            Our vision for the 
                             <span className="block text-indigo-400">
-                                Intelligent Decision-Making
+                                Future
                             </span>
                         </h2>
 
@@ -97,12 +97,10 @@ const AboutVision = () => {
           max-w-3xl
           "
                         >
-                            We envision a future where organizations can
-                            anticipate change, adapt faster, and make
-                            decisions with confidence. Through continuous
-                            innovation, experimentation, and customer
-                            collaboration, we build solutions that evolve
-                            alongside modern business needs.
+                            In a world where technology is rapidly advancing, 
+                            our vision is to remain at the forefront of innovation. 
+                            We provide transformative solutions that meet evolving client needs, 
+                            helping organizations navigate complexity with confidence and agility.
                         </p>
 
                         {/* Tags */}
@@ -182,8 +180,9 @@ const AboutVision = () => {
                                 </h3>
 
                                 <p className="text-slate-400 leading-relaxed">
-                                    We continuously explore emerging technologies and new approaches
-                                    to help organizations stay ahead of evolving business challenges.
+                                    We continuously embrace new ideas, technologies, 
+                                    and approaches to deliver advanced solutions 
+                                    that help our clients stay ahead of industry change.
                                 </p>
                             </div>
 
@@ -197,13 +196,12 @@ const AboutVision = () => {
                                 "
                             >
                                 <h3 className="text-xl font-semibold text-white mb-3">
-                                    Adaptability
+                                    Integrity
                                 </h3>
 
                                 <p className="text-slate-400 leading-relaxed">
-                                    Change is constant. Our solutions are designed to help businesses
-                                    respond quickly, make informed decisions, and remain resilient in
-                                    dynamic environments.
+                                    Trust and transparency are at the foundation of how we work.
+                                     We uphold ethical practices and build reliable relationships with our clients and partners.
                                 </p>
                             </div>
 
@@ -217,13 +215,12 @@ const AboutVision = () => {
     "
                             >
                                 <h3 className="text-xl font-semibold text-white mb-3">
-                                    Confidence
+                                    Excellence
                                 </h3>
 
                                 <p className="text-slate-400 leading-relaxed">
-                                    By transforming complex information into actionable insight,
-                                    we empower organizations to move forward with clarity and
-                                    confidence.
+                                    We are committed to delivering high-quality solutions that exceed expectations and 
+                                    create long-term value for every organization we support.
                                 </p>
                             </div>
 

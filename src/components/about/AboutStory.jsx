@@ -40,32 +40,31 @@ const AboutStory = () => {
         </p>
 
         <h2 className="text-4xl md:text-5xl font-bold tracking-tight text-gray-900 mb-8">
-          Created to Solve
+          How it all
           <span className="block text-indigo-600">
-            Real Business Challenges
+            Started 
           </span>
         </h2>
 
         <div className="space-y-6 text-lg leading-relaxed text-gray-600">
 
-          <p>
-            Fortylane was founded with a clear purpose: helping
-            organizations make better decisions in an increasingly
-            complex world.
+           <p>
+            Arlanto, formerly known as RimaOne, was founded more than 20 years ago with a clear mission: 
+            to help organizations manage risk with confidence and clarity.
           </p>
 
           <p>
-            As businesses generated more data and faced greater
-            uncertainty, we saw the need for solutions that could
-            transform information into actionable insight.
+           Over the years, we have supported renowned banking institutions including Deutsche Bank, Bank of America, 
+           and the European Development Bank with robust risk management solutions.
           </p>
 
           <p>
-            Today, Fortylane combines modern technology,
-            analytics, and industry expertise to help
-            organizations improve visibility, accelerate
-            growth, and prepare for the future.
+            Today, Arlanto continues to evolve, 
+            expanding its expertise into higher education and delivering 
+            innovative solutions for universities, business schools, and modern organizations.
           </p>
+
+         
 
         </div>
 
@@ -115,17 +114,16 @@ const AboutStory = () => {
               text-indigo-600
             "
             >
-              Why Fortylane
+              Why Arlanto
             </div>
 
             <h3 className="mt-6 text-3xl font-bold text-gray-900">
-              Turning Complexity Into Clarity
+              Turning Risk Into Opportunity
             </h3>
 
             <p className="mt-4 text-gray-600 leading-relaxed">
-              We help organizations transform data,
-              uncertainty, and operational challenges
-              into clear, actionable decisions.
+              We help organizations make data-driven, information-based decisions by identifying relevant risk factors, 
+              mitigating uncertainty, and enabling confident growth.
             </p>
 
             <div className="mt-8 space-y-4">
@@ -133,21 +131,21 @@ const AboutStory = () => {
               <div className="flex items-start gap-3">
                 <div className="mt-2 h-2 w-2 rounded-full bg-indigo-600" />
                 <span className="text-gray-700">
-                  Intelligent technology solutions
+                 Advanced risk management solutions
                 </span>
               </div>
 
               <div className="flex items-start gap-3">
                 <div className="mt-2 h-2 w-2 rounded-full bg-indigo-600" />
                 <span className="text-gray-700">
-                  Data-driven decision making
+                 Data-driven decision-making
                 </span>
               </div>
 
               <div className="flex items-start gap-3">
                 <div className="mt-2 h-2 w-2 rounded-full bg-indigo-600" />
                 <span className="text-gray-700">
-                  Long-term customer partnerships
+                  Long-term client partnerships
                 </span>
               </div>
 
