@@ -1,4 +1,38 @@
 
+import articleHero from "../assets/images/articlefound1chat.png";
+import articleWorkFlow from "../assets/images/articlefound2chat.png";
+import leoHero from "../assets/images/leochat1.png";
+import leoWorkFlow from "../assets/images/leochat2.png";
+import eventHero from "../assets/images/eventprotectionchat1.png";
+import eventWorkFlow from "../assets/images/eventprotectionchat3.png";
+import incidentHero from "../assets/images/incidentchat1.png";
+import incidentWorkFlow from "../assets/images/incidentchat2.png";
+import materialHero from "../assets/images/materialchat1.png";
+import materialWorkFlow from "../assets/images/materialchat2.png";
+import passHero from "../assets/images/passmanagementchat1.png";
+import passWorkFlow from "../assets/images/passmanagementchat2.png";
+import guardingHero from "../assets/images/guardingchat1.png";
+import guardingWorkFlow from "../assets/images/guardingchat2.png";
+import keyHero from "../assets/images/keymanagementchat1.png"; 
+import keyWorkFlow from "../assets/images/keymanagementchat2.png";
+import femaleHero from "../assets/images/femaledropchat1.png";
+import femaleWorkFlow from "../assets/images/femaledropchat2.png";
+import slaHero from "../assets/images/slachat1.png";
+import slaWorkFlow from "../assets/images/slachat2.png";
+import headHero from "../assets/images/headcountchat1.png";
+import headWorkFlow from "../assets/images/headcountchat2.png";
+import shiftHero from "../assets/images/shiftschedulechat1.png";
+import shiftWorkFlow from "../assets/images/shiftschedulechat2.png";
+import ssHero from "../assets/images/sschat1.png";
+import ssWorkFlow from "../assets/images/sschat2.png";
+import handHero from "../assets/images/handoverchat1.png";
+import handWorkFlow from "../assets/images/handoverchat2.png";
+import costHero from "../assets/images/costmanagementchat1.png";
+import costWorkFlow from "../assets/images/costmanagementchat2.png";
+import generalHero from "../assets/images/generaleventschat1.png";
+import generalWorkFlow  from "../assets/images/generaleventschat2.png";
+import scriHero from "../assets/images/scrichat1.png";
+import scriWorkFlow from "../assets/images/scrichat2.png"
 
 
 const modulesConfig =[
@@ -48,8 +82,8 @@ const modulesConfig =[
     "Improved transparency with audit trails"
   ],
 
-  heroImage: "/src/assets/images/articlefound2chat.png",
-  workflowImage: "/src/assets/images/articlefound1chat.png"
+  heroImage: articleHero,
+  workflowImage: articleWorkFlow
 },
 // Law enforcement visit
 {
@@ -94,8 +128,8 @@ const modulesConfig =[
     "Centralized visit records",
     "Supports incident investigations"
   ],
-  heroImage: "/src/assets/images/leochat2.png",
-  workflowImage: "/src/assets/images/leochat1.png"
+  heroImage: leoHero,
+  workflowImage: leoWorkFlow
   // image1: "",
   // image2: ""
 },
@@ -143,8 +177,8 @@ const modulesConfig =[
     "Enhanced participant experience"
   ],
 
-  heroImage: "/src/assets/images/eventprotectionchat1.png",
-  workflowImage: "/src/assets/images/eventprotectionchat3.png"
+  heroImage: eventHero,
+  workflowImage: eventWorkFlow
 },
   // incident management
   {
@@ -190,8 +224,8 @@ const modulesConfig =[
     "Data-driven preventive actions"
   ],
 
-  heroImage: "/src/assets/images/incidentchat1.png",
-  workflowImage: "/src/assets/images/incidentchat2.png"
+  heroImage: incidentHero,
+  workflowImage: incidentWorkFlow
 },
   // material movement
   {
@@ -237,8 +271,8 @@ const modulesConfig =[
     "Reduced manual tracking"
   ],
 
-  heroImage: "/src/assets/images/materialchat1.png",
-  workflowImage: "/src/assets/images/materialchat2.png"
+  heroImage: materialHero,
+  workflowImage: materialWorkFlow
 },
 //Pass management 
   {
@@ -284,8 +318,8 @@ const modulesConfig =[
     "Improved visitor management"
   ],
 
- heroImage: "/src/assets/images/passmanagementchat1.png",
-  workflowImage: "/src/assets/images/passmanagementchat2.png"
+ heroImage: passHero,
+  workflowImage: passWorkFlow
 },
   // guarding operations
   {
@@ -331,8 +365,8 @@ const modulesConfig =[
     "Enhanced team coordination"
   ],
 
-  heroImage: "/src/assets/images/guardingchat1.png",
-  workflowImage: "/src/assets/images/guardingchat2.png"
+  heroImage: guardingHero,
+  workflowImage: guardingWorkFlow
 },
   // key management  
   {
@@ -378,8 +412,8 @@ const modulesConfig =[
     "Centralized key management"
   ],
 
-heroImage: "/src/assets/images/keymanagementchat1.png",
-  workflowImage: "/src/assets/images/keymanagementchat2.png"
+  heroImage: keyHero,
+  workflowImage: keyWorkFlow
 },
   // Female drop pick up
   {
@@ -425,8 +459,8 @@ heroImage: "/src/assets/images/keymanagementchat1.png",
     "Faster emergency response"
   ],
 
-  heroImage: "/src/assets/images/femaledropchat1.png",
-  workflowImage: "/src/assets/images/femaledropchat2.png"
+  heroImage:femaleHero,
+  workflowImage: femaleWorkFlow
 },
 
   // sla violation penalty
@@ -473,8 +507,8 @@ heroImage: "/src/assets/images/keymanagementchat1.png",
     "Data-driven vendor performance evaluation"
   ],
 
-  heroImage: "/src/assets/images/slachat1.png",
-  workflowImage: "/src/assets/images/slachat2.png"
+  heroImage: slaHero,
+  workflowImage: slaWorkFlow
 },
 
   // Head Count process 
@@ -521,8 +555,8 @@ heroImage: "/src/assets/images/keymanagementchat1.png",
     "Efficient resource allocation"
   ],
 
- heroImage: "/src/assets/images/headcountchat1.png",
-  workflowImage: "/src/assets/images/headcountchat2.png"
+ heroImage: headHero,
+  workflowImage:headWorkFlow
 },
   // shift scheduling 
   {
@@ -568,8 +602,8 @@ heroImage: "/src/assets/images/keymanagementchat1.png",
     "Enhanced operational efficiency"
   ],
 
-  heroImage: "/src/assets/images/shiftschedulechat1.png",
-  workflowImage: "/src/assets/images/shiftschedulechat2.png"
+  heroImage: shiftHero,
+  workflowImage: shiftWorkFlow
 },
 //security systems
 {
@@ -615,8 +649,8 @@ heroImage: "/src/assets/images/keymanagementchat1.png",
     "Enhanced security system integrity"
   ],
 
-  heroImage: "/src/assets/images/sschat1.png",
-  workflowImage: "/src/assets/images/sschat2.png"
+  heroImage: ssHero,
+  workflowImage: ssWorkFlow
 },
   
   // hand over- take over
@@ -663,8 +697,8 @@ heroImage: "/src/assets/images/keymanagementchat1.png",
     "Consistent security coverage"
   ],
 
- heroImage: "/src/assets/images/handoverchat1.png",
-  workflowImage: "/src/assets/images/handoverchat2.png"
+ heroImage: handHero,
+  workflowImage: handWorkFlow
 },
   
 // cost management 
@@ -712,8 +746,8 @@ heroImage: "/src/assets/images/keymanagementchat1.png",
     "Optimized operational spending"
   ],
 
-  heroImage: "/src/assets/images/costmanagementchat1.png",
-  workflowImage: "/src/assets/images/costmanagementchat2.png"
+  heroImage: costHero,
+  workflowImage: costWorkFlow
 },
 //general events 
 {
@@ -759,8 +793,8 @@ heroImage: "/src/assets/images/keymanagementchat1.png",
     "Enhanced operational readiness"
   ],
 
-  heroImage: "/src/assets/images/generaleventschat1.png",
-  workflowImage: "/src/assets/images/generaleventschat2.png"
+  heroImage: generalHero,
+  workflowImage: generalWorkFlow
 },
 //SCRI (SECURITY AND CRISIS RESPONSE INITIATIVE)
 
@@ -807,8 +841,8 @@ heroImage: "/src/assets/images/keymanagementchat1.png",
     "Centralized incident intelligence"
   ],
 
- heroImage: "/src/assets/images/scrichat1.png",
-  workflowImage: "/src/assets/images/scrichat2.png"
+ heroImage: scriHero,
+  workflowImage: scriWorkFlow
 }
 
 

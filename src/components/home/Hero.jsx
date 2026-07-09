@@ -1,5 +1,5 @@
 import { useNavigate } from "react-router-dom";
-
+import fortylaneLogo from "../../assets/images/fortylane_logo.png"
 
 export default function Hero() {
     const navigate= useNavigate()
@@ -37,7 +37,7 @@ export default function Hero() {
                 <div className="flex-1">
                     <div className="bg-white shadow-xl rounded-2xl p-8">
                          <img
-                            src="/src/assets/images/fortylane_logo.png"
+                            src={fortylaneLogo}
                             alt="FortyLane Dashboard"
                             className="h-94 w-full object-cover rounded-xl"
                             />
