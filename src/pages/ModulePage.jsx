@@ -1,6 +1,6 @@
 
 import { useParams } from "react-router-dom"
-import modulesConfig from "../data/ModulesConfig";
+import modulesConfig from "../data/modulesConfig";
 
 import DemoRequestModal from "../components/demo/DemoRequestModal";
 import { useState } from "react";
